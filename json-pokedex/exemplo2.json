@@ -1,0 +1,249 @@
+{
+  "biomes": {
+    "Jungle": {
+      "common": [
+        "caterpie",
+        "weedle"
+      ],
+      "uncommon": [
+        "pikachu"
+      ],
+      "rare": [
+        "scyther"
+      ]
+    },
+
+    "Ocean": {
+      "common": [
+        "magikarp"
+      ],
+      "rare": [
+        "lapras"
+      ]
+    },
+
+    "Snowy": {
+      "common": [
+        "vulpix_alolan"
+      ]
+    }
+  },
+
+  "pokemon": {
+    "pikachu": {
+      "bucket": "uncommon",
+      "weight": 8,
+
+      "levels": {
+        "min": 5,
+        "max": 18
+      },
+
+      "biomes": [
+        "Forest",
+        "Jungle",
+        "Plains"
+      ],
+
+      "excluded_biomes": [
+        "Volcanic"
+      ],
+
+      "conditions": {
+        "weather": [
+          "clear",
+          "cloudy"
+        ],
+
+        "time": [
+          "day",
+          "dusk"
+        ]
+      },
+
+      "multipliers": {
+        "thunderstorm": 1.5
+      }
+    },
+
+    "umbreon": {
+      "bucket": "rare",
+      "weight": 3,
+
+      "levels": {
+        "min": 20,
+        "max": 35
+      },
+
+      "biomes": [
+        "DarkForest"
+      ],
+
+      "conditions": {
+        "time": [
+          "night"
+        ],
+
+        "moon": [
+          "full"
+        ]
+      },
+
+      "multipliers": {
+        "full": 2.0
+      }
+    },
+
+    "lotad": {
+      "bucket": "common",
+      "weight": 10,
+
+      "levels": {
+        "min": 4,
+        "max": 12
+      },
+
+      "biomes": [
+        "Swamp",
+        "River"
+      ],
+
+      "conditions": {
+        "weather": [
+          "rain"
+        ]
+      },
+
+      "multipliers": {
+        "rain": 2.5
+      }
+    },
+
+    "vulpix_alolan": {
+      "bucket": "uncommon",
+      "weight": 5,
+
+      "levels": {
+        "min": 8,
+        "max": 20
+      },
+
+      "biomes": [
+        "Snowy"
+      ]
+    },
+
+    "tauros_paldean_aqua": {
+      "bucket": "rare",
+      "weight": 2,
+
+      "levels": {
+        "min": 25,
+        "max": 40
+      },
+
+      "biomes": [
+        "Ocean",
+        "Beach"
+      ]
+    },
+
+    "shellos_east_sea": {
+      "bucket": "common",
+      "weight": 8,
+
+      "levels": {
+        "min": 10,
+        "max": 20
+      },
+
+      "biomes": [
+        "Ocean"
+      ]
+    },
+
+    "shellos_west_sea": {
+      "bucket": "common",
+      "weight": 8,
+
+      "levels": {
+        "min": 10,
+        "max": 20
+      },
+
+      "biomes": [
+        "Ocean"
+      ]
+    },
+
+    "vivillon": {
+      "bucket": "rare",
+      "weight": 1,
+
+      "levels": {
+        "min": 12,
+        "max": 25
+      },
+
+      "biomes": [
+        "FlowerForest"
+      ],
+
+      "forms": [
+        {
+          "id": "meadow",
+          "weight": 40
+        },
+        {
+          "id": "ocean",
+          "weight": 20
+        },
+        {
+          "id": "jungle",
+          "weight": 20
+        },
+        {
+          "id": "sun",
+          "weight": 20
+        }
+      ]
+    },
+
+    "flabebe": {
+      "bucket": "common",
+      "weight": 6,
+
+      "levels": {
+        "min": 5,
+        "max": 12
+      },
+
+      "biomes": [
+        "FlowerForest"
+      ],
+
+      "forms": [
+        {
+          "id": "red_flower",
+          "weight": 30
+        },
+        {
+          "id": "yellow_flower",
+          "weight": 25
+        },
+        {
+          "id": "orange_flower",
+          "weight": 20
+        },
+        {
+          "id": "blue_flower",
+          "weight": 15
+        },
+        {
+          "id": "white_flower",
+          "weight": 10
+        }
+      ]
+    }
+  }
+}

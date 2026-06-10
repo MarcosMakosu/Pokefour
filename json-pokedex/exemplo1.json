@@ -1,0 +1,26 @@
+{
+  "biomes": {
+    "Jungle": {
+      "common": ["caterpie", "weedle"],
+      "rare": ["scyther"]
+    },
+    "Ocean": {
+      "common": ["magikarp"]
+    }
+  },
+
+  "pokemon": {
+    "scyther": {
+      "weight": 5,
+      "levels": {
+        "min": 15,
+        "max": 25
+      },
+
+      "conditions": {
+        "weather": ["clear"],
+        "time": ["day"]
+      }
+    }
+  }
+}

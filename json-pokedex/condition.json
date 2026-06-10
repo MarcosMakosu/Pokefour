@@ -1,0 +1,6 @@
+"conditions": {
+  "weather": ["rain"],
+  "time": ["night"],
+  "moon": ["full"],
+  "season": ["winter"]
+}
