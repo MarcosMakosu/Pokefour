@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo_prov.png" alt="Banner PokéFour" width="600"/>
+  <img src="logo_prov.png" alt="Banner PokéFour" width="60"/>
 </p>
 
 
