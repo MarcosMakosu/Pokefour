@@ -1,0 +1,1157 @@
+[
+  {
+    "id": 1,
+    "name": "pound",
+    "description": "Inflicts regular damage.",
+    "short_effect": "Inflicts regular damage with no additional effect.",
+    "effect_chance": null
+  },
+  {
+    "id": 2,
+    "name": "karate-chop",
+    "description": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.",
+    "short_effect": "Has an increased chance for a critical hit.",
+    "effect_chance": null
+  },
+  {
+    "id": 3,
+    "name": "double-slap",
+    "description": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+    "short_effect": "Hits 2-5 times in one turn.",
+    "effect_chance": null
+  },
+  {
+    "id": 4,
+    "name": "comet-punch",
+    "description": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+    "short_effect": "Hits 2-5 times in one turn.",
+    "effect_chance": null
+  },
+  {
+    "id": 5,
+    "name": "mega-punch",
+    "description": "Inflicts regular damage.",
+    "short_effect": "Inflicts regular damage with no additional effect.",
+    "effect_chance": null
+  },
+  {
+    "id": 6,
+    "name": "pay-day",
+    "description": "Inflicts regular damage.  After the battle ends, the winner receives five times the user’s level in extra money for each time this move was used.",
+    "short_effect": "Scatters money on the ground worth five times the user’s level.",
+    "effect_chance": null
+  },
+  {
+    "id": 7,
+    "name": "fire-punch",
+    "description": "Inflicts regular damage.  Has a chance to burn the target.",
+    "short_effect": "Has a chance to burn the target.",
+    "effect_chance": 10
+  },
+  {
+    "id": 8,
+    "name": "ice-punch",
+    "description": "Inflicts regular damage.  Has a chance to freeze the target.",
+    "short_effect": "Has a chance to freeze the target.",
+    "effect_chance": 10
+  },
+  {
+    "id": 9,
+    "name": "thunder-punch",
+    "description": "Inflicts regular damage.  Has a chance to paralyze the target.",
+    "short_effect": "Has a chance to paralyze the target.",
+    "effect_chance": 10
+  },
+  {
+    "id": 10,
+    "name": "scratch",
+    "description": "Inflicts regular damage.",
+    "short_effect": "Inflicts regular damage with no additional effect.",
+    "effect_chance": null
+  },
+  {
+    "id": 11,
+    "name": "vice-grip",
+    "description": "Inflicts regular damage.",
+    "short_effect": "Inflicts regular damage with no additional effect.",
+    "effect_chance": null
+  },
+  {
+    "id": 12,
+    "name": "guillotine",
+    "description": "Inflicts damage equal to the target’s max HP.  Ignores accuracy and evasion modifiers.  This move’s accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail.\n\nBecause this move inflicts a specific and finite amount of damage, Endure still prevents the target from fainting.\n\nThe effects of Lock-On, Mind Reader, and No Guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through Detect or Protect.",
+    "short_effect": "Causes a one-hit KO.",
+    "effect_chance": null
+  },
+  {
+    "id": 13,
+    "name": "razor-wind",
+    "description": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.  User charges for one turn before attacking.\n\nThis move cannot be selected by Sleep Talk.",
+    "short_effect": "Requires a turn to charge before attacking.",
+    "effect_chance": null
+  },
+  {
+    "id": 14,
+    "name": "swords-dance",
+    "description": "Raises the user’s Attack by two stages.",
+    "short_effect": "Raises the user’s Attack by two stages.",
+    "effect_chance": null
+  },
+  {
+    "id": 15,
+    "name": "cut",
+    "description": "Inflicts regular damage.",
+    "short_effect": "Inflicts regular damage with no additional effect.",
+    "effect_chance": null
+  },
+  {
+    "id": 16,
+    "name": "gust",
+    "description": "Inflicts regular damage.\n\nIf the target is under the effect of Bounce, Fly, or Sky Drop, this move will hit with double power.",
+    "short_effect": "Inflicts regular damage and can hit Pokémon in the air.",
+    "effect_chance": null
+  },
+  {
+    "id": 17,
+    "name": "wing-attack",
+    "description": "Inflicts regular damage.",
+    "short_effect": "Inflicts regular damage with no additional effect.",
+    "effect_chance": null
+  },
+  {
+    "id": 18,
+    "name": "whirlwind",
+    "description": "Switches the target out for another of its trainer’s Pokémon selected at random.  Wild battles end immediately.\n\nDoesn’t affect Pokémon with Suction Cups or under the effect of Ingrain.",
+    "short_effect": "Immediately ends wild battles.  Forces trainers to switch Pokémon.",
+    "effect_chance": null
+  },
+  {
+    "id": 19,
+    "name": "fly",
+    "description": "Inflicts regular damage.  User flies high into the air for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, Gust, Hurricane, Sky Uppercut, Smack Down, Thunder, Twister, and Whirlwind still hit the user normally.  Gust and Twister also have double power against the user.\n\nThe damage from Hail and Sandstorm still applies during the immune turn.\n\nThe user may be hit during its immune turn if under the effect of Lock-On, Mind Reader, or No Guard.\n\nThis move cannot be used while Gravity is in effect.\n\nThis move cannot be selected by Sleep Talk.",
+    "short_effect": "User flies high into the air, dodging all attacks, and hits next turn.",
+    "effect_chance": null
+  },
+  {
+    "id": 20,
+    "name": "bind",
+    "description": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nRapid Spin cancels this effect.",
+    "short_effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+    "effect_chance": 100
+  },
+  {
+    "id": 21,
+    "name": "slam",
+    "description": "Inflicts regular damage.",
+    "short_effect": "Inflicts regular damage with no additional effect.",
+    "effect_chance": null
+  },
+  {
+    "id": 22,
+    "name": "vine-whip",
+    "description": "Inflicts regular damage.",
+    "short_effect": "Inflicts regular damage with no additional effect.",
+    "effect_chance": null
+  },
+  {
+    "id": 23,
+    "name": "stomp",
+    "description": "Inflicts regular damage.  Has a chance to make the target flinch.\n\nPower is doubled against Pokémon that have used Minimize since entering the field.",
+    "short_effect": "Has a chance to make the target flinch.",
+    "effect_chance": 30
+  },
+  {
+    "id": 24,
+    "name": "double-kick",
+    "description": "Inflicts regular damage.  Hits twice in one turn.",
+    "short_effect": "Hits twice in one turn.",
+    "effect_chance": null
+  },
+  {
+    "id": 25,
+    "name": "mega-kick",
+    "description": "Inflicts regular damage.",
+    "short_effect": "Inflicts regular damage with no additional effect.",
+    "effect_chance": null
+  },
+  {
+    "id": 26,
+    "name": "jump-kick",
+    "description": "Inflicts regular damage. If this move misses, is blocked by Protect or Detect, or has no effect, the user takes damage equal to half of its max HP rounded down.\n\nThis move cannot be used while Gravity is in effect.",
+    "short_effect": "If the user misses, it takes half the damage it would have inflicted in recoil.",
+    "effect_chance": null
+  },
+  {
+    "id": 27,
+    "name": "rolling-kick",
+    "description": "Inflicts regular damage.  Has a chance to make the target flinch.",
+    "short_effect": "Has a chance to make the target flinch.",
+    "effect_chance": 30
+  },
+  {
+    "id": 28,
+    "name": "sand-attack",
+    "description": "Lowers the target’s accuracy by one stage.",
+    "short_effect": "Lowers the target’s accuracy by one stage.",
+    "effect_chance": null
+  },
+  {
+    "id": 29,
+    "name": "headbutt",
+    "description": "Inflicts regular damage.  Has a chance to make the target flinch.",
+    "short_effect": "Has a chance to make the target flinch.",
+    "effect_chance": 30
+  },
+  {
+    "id": 30,
+    "name": "horn-attack",
+    "description": "Inflicts regular damage.",
+    "short_effect": "Inflicts regular damage with no additional effect.",
+    "effect_chance": null
+  },
+  {
+    "id": 31,
+    "name": "fury-attack",
+    "description": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+    "short_effect": "Hits 2-5 times in one turn.",
+    "effect_chance": null
+  },
+  {
+    "id": 32,
+    "name": "horn-drill",
+    "description": "Inflicts damage equal to the target’s max HP.  Ignores accuracy and evasion modifiers.  This move’s accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail.\n\nBecause this move inflicts a specific and finite amount of damage, Endure still prevents the target from fainting.\n\nThe effects of Lock-On, Mind Reader, and No Guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through Detect or Protect.",
+    "short_effect": "Causes a one-hit KO.",
+    "effect_chance": null
+  },
+  {
+    "id": 33,
+    "name": "tackle",
+    "description": "Inflicts regular damage.",
+    "short_effect": "Inflicts regular damage with no additional effect.",
+    "effect_chance": null
+  },
+  {
+    "id": 34,
+    "name": "body-slam",
+    "description": "Inflicts regular damage.  Has a chance to paralyze the target.",
+    "short_effect": "Has a chance to paralyze the target.",
+    "effect_chance": 30
+  },
+  {
+    "id": 35,
+    "name": "wrap",
+    "description": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nRapid Spin cancels this effect.",
+    "short_effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+    "effect_chance": 100
+  },
+  {
+    "id": 36,
+    "name": "take-down",
+    "description": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.",
+    "short_effect": "User receives 1/4 the damage it inflicts in recoil.",
+    "effect_chance": null
+  },
+  {
+    "id": 37,
+    "name": "thrash",
+    "description": "Inflicts regular damage.  User is forced to attack with this move for 2–3 turns,selected at random.  After the last hit, the user becomes confused.\n\nSafeguard does not protect against the confusion from this move.",
+    "short_effect": "Hits every turn for 2-3 turns, then confuses the user.",
+    "effect_chance": null
+  },
+  {
+    "id": 38,
+    "name": "double-edge",
+    "description": "Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.",
+    "short_effect": "User receives 1/3 the damage inflicted in recoil.",
+    "effect_chance": null
+  },
+  {
+    "id": 39,
+    "name": "tail-whip",
+    "description": "Lowers the target’s Defense by one stage.",
+    "short_effect": "Lowers the target’s Defense by one stage.",
+    "effect_chance": null
+  },
+  {
+    "id": 40,
+    "name": "poison-sting",
+    "description": "Inflicts regular damage.  Has a chance to poison the target.",
+    "short_effect": "Has a chance to poison the target.",
+    "effect_chance": 30
+  },
+  {
+    "id": 41,
+    "name": "twineedle",
+    "description": "Inflicts regular damage.  Hits twice in the same turn.  Has a chance to poison the target.",
+    "short_effect": "Hits twice in the same turn.  Has a chance to poison the target.",
+    "effect_chance": 20
+  },
+  {
+    "id": 42,
+    "name": "pin-missile",
+    "description": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+    "short_effect": "Hits 2-5 times in one turn.",
+    "effect_chance": null
+  },
+  {
+    "id": 43,
+    "name": "leer",
+    "description": "Lowers the target’s Defense by one stage.",
+    "short_effect": "Lowers the target’s Defense by one stage.",
+    "effect_chance": 100
+  },
+  {
+    "id": 44,
+    "name": "bite",
+    "description": "Inflicts regular damage.  Has a chance to make the target flinch.",
+    "short_effect": "Has a chance to make the target flinch.",
+    "effect_chance": 30
+  },
+  {
+    "id": 45,
+    "name": "growl",
+    "description": "Lowers the target’s Attack by one stage.",
+    "short_effect": "Lowers the target’s Attack by one stage.",
+    "effect_chance": null
+  },
+  {
+    "id": 46,
+    "name": "roar",
+    "description": "Switches the target out for another of its trainer’s Pokémon selected at random.  Wild battles end immediately.\n\nDoesn’t affect Pokémon with Suction Cups or under the effect of Ingrain.",
+    "short_effect": "Immediately ends wild battles.  Forces trainers to switch Pokémon.",
+    "effect_chance": null
+  },
+  {
+    "id": 47,
+    "name": "sing",
+    "description": "Puts the target to sleep.",
+    "short_effect": "Puts the target to sleep.",
+    "effect_chance": null
+  },
+  {
+    "id": 48,
+    "name": "supersonic",
+    "description": "Confuses the target.",
+    "short_effect": "Confuses the target.",
+    "effect_chance": null
+  },
+  {
+    "id": 49,
+    "name": "sonic-boom",
+    "description": "Inflicts exactly 20 damage.",
+    "short_effect": "Inflicts 20 points of damage.",
+    "effect_chance": null
+  },
+  {
+    "id": 50,
+    "name": "disable",
+    "description": "Disables the target’s last used move, preventing its use for 4–7 turns, selected at random, or until the target leaves the field.  If the target hasn’t used a move since entering the field, if it tried to use a move this turn and failed,  if its last used move has 0 PP remaining, or if it already has a move disabled, this move will fail.",
+    "short_effect": "Disables the target’s last used move for 1-8 turns.",
+    "effect_chance": null
+  },
+  {
+    "id": 51,
+    "name": "acid",
+    "description": "Inflicts regular damage.  Has a chance to lower the target’s Special Defense by one stage.",
+    "short_effect": "Has a chance to lower the target’s Special Defense by one stage.",
+    "effect_chance": 10
+  },
+  {
+    "id": 52,
+    "name": "ember",
+    "description": "Inflicts regular damage.  Has a chance to burn the target.",
+    "short_effect": "Has a chance to burn the target.",
+    "effect_chance": 10
+  },
+  {
+    "id": 53,
+    "name": "flamethrower",
+    "description": "Inflicts regular damage.  Has a chance to burn the target.",
+    "short_effect": "Has a chance to burn the target.",
+    "effect_chance": 10
+  },
+  {
+    "id": 54,
+    "name": "mist",
+    "description": "Pokémon on the user’s side of the field are immune to stat-lowering effects for five turns.\n\nGuard Swap, Heart Swap, and Power Swap may still be used.\n\nDefog used by an opponent will end this effect.",
+    "short_effect": "Protects the user’s stats from being changed by enemy moves.",
+    "effect_chance": null
+  },
+  {
+    "id": 55,
+    "name": "water-gun",
+    "description": "Inflicts regular damage.",
+    "short_effect": "Inflicts regular damage with no additional effect.",
+    "effect_chance": null
+  },
+  {
+    "id": 56,
+    "name": "hydro-pump",
+    "description": "Inflicts regular damage.",
+    "short_effect": "Inflicts regular damage with no additional effect.",
+    "effect_chance": null
+  },
+  {
+    "id": 57,
+    "name": "surf",
+    "description": "Inflicts regular damage.\n\nIf the target is in the first turn of Dive, this move will hit with double power.",
+    "short_effect": "Inflicts regular damage and can hit Dive users.",
+    "effect_chance": null
+  },
+  {
+    "id": 58,
+    "name": "ice-beam",
+    "description": "Inflicts regular damage.  Has a chance to freeze the target.",
+    "short_effect": "Has a chance to freeze the target.",
+    "effect_chance": 10
+  },
+  {
+    "id": 59,
+    "name": "blizzard",
+    "description": "Inflicts regular damage.  Has a chance to freeze the target.\n\nDuring Hail, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of Protect and Detect.",
+    "short_effect": "Has a chance to freeze the target.",
+    "effect_chance": 10
+  },
+  {
+    "id": 60,
+    "name": "psybeam",
+    "description": "Inflicts regular damage.  Has a chance to confuse the target.",
+    "short_effect": "Has a chance to confuse the target.",
+    "effect_chance": 10
+  },
+  {
+    "id": 61,
+    "name": "bubble-beam",
+    "description": "Inflicts regular damage.  Has a chance to lower the target’s Speed by one stage.",
+    "short_effect": "Has a chance to lower the target’s Speed by one stage.",
+    "effect_chance": 10
+  },
+  {
+    "id": 62,
+    "name": "aurora-beam",
+    "description": "Inflicts regular damage.  Has a chance to lower the target’s Attack by one stage.",
+    "short_effect": "Has a chance to lower the target’s Attack by one stage.",
+    "effect_chance": 10
+  },
+  {
+    "id": 63,
+    "name": "hyper-beam",
+    "description": "Inflicts regular damage.  User loses its next turn to \"recharge\", and cannot attack or switch out during that turn.",
+    "short_effect": "User foregoes its next turn to recharge.",
+    "effect_chance": null
+  },
+  {
+    "id": 64,
+    "name": "peck",
+    "description": "Inflicts regular damage.",
+    "short_effect": "Inflicts regular damage with no additional effect.",
+    "effect_chance": null
+  },
+  {
+    "id": 65,
+    "name": "drill-peck",
+    "description": "Inflicts regular damage.",
+    "short_effect": "Inflicts regular damage with no additional effect.",
+    "effect_chance": null
+  },
+  {
+    "id": 66,
+    "name": "submission",
+    "description": "Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.",
+    "short_effect": "User receives 1/4 the damage it inflicts in recoil.",
+    "effect_chance": null
+  },
+  {
+    "id": 67,
+    "name": "low-kick",
+    "description": "Inflicts regular damage.  Power increases with the target’s weight in kilograms, to a maximum of 120.\n\nTarget’s weight | Power\n--------------- | ----:\nUp to 10kg      |    20\nUp to 25kg      |    40\nUp to 50kg      |    60\nUp to 100kg     |    80\nUp to 200kg     |   100\nAbove 200kg     |   120",
+    "short_effect": "Inflicts more damage to heavier targets, with a maximum of 120 power.",
+    "effect_chance": null
+  },
+  {
+    "id": 68,
+    "name": "counter",
+    "description": "Targets the last opposing Pokémon to hit the user with a physical move this turn.  Inflicts twice the damage that move did to the user.  If there is no eligible target, this move will fail.  Type immunity applies, but other type effects are ignored.\n\nThis move cannot be copied by Mirror Move, nor selected by Assist or Metronome.",
+    "short_effect": "Inflicts twice the damage the user received from the last physical hit it took.",
+    "effect_chance": null
+  },
+  {
+    "id": 69,
+    "name": "seismic-toss",
+    "description": "Inflicts damage equal to the user’s level.  Type immunity applies, but other type effects are ignored.",
+    "short_effect": "Inflicts damage equal to the user’s level.",
+    "effect_chance": null
+  },
+  {
+    "id": 70,
+    "name": "strength",
+    "description": "Inflicts regular damage.",
+    "short_effect": "Inflicts regular damage with no additional effect.",
+    "effect_chance": null
+  },
+  {
+    "id": 71,
+    "name": "absorb",
+    "description": "Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
+    "short_effect": "Drains half the damage inflicted to heal the user.",
+    "effect_chance": null
+  },
+  {
+    "id": 72,
+    "name": "mega-drain",
+    "description": "Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
+    "short_effect": "Drains half the damage inflicted to heal the user.",
+    "effect_chance": null
+  },
+  {
+    "id": 73,
+    "name": "leech-seed",
+    "description": "Plants a seed on the target that drains 1/8 of its max HP at the end of every turn and heals the user for the amount taken.  Has no effect on Grass Pokémon.  The seed remains until the target leaves the field.\n\nThe user takes damage instead of being healed if the target has Liquid Ooze.\n\nRapid Spin will remove this effect.\n\nThis effect is passed on by Baton Pass.",
+    "short_effect": "Seeds the target, stealing HP from it every turn.",
+    "effect_chance": null
+  },
+  {
+    "id": 74,
+    "name": "growth",
+    "description": "Raises the user’s Attack and Special Attack by one stage each.  During Sunny Day, raises both stats by two stages.",
+    "short_effect": "Raises the user’s Attack and Special Attack by one stage.",
+    "effect_chance": null
+  },
+  {
+    "id": 75,
+    "name": "razor-leaf",
+    "description": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.",
+    "short_effect": "Has an increased chance for a critical hit.",
+    "effect_chance": null
+  },
+  {
+    "id": 76,
+    "name": "solar-beam",
+    "description": "Inflicts regular damage.  User charges for one turn before attacking.\n\nDuring Sunny Day, the charge turn is skipped.\n\nDuring Hail, Rain Dance, or Sandstorm, power is halved.\n\nThis move cannot be selected by Sleep Talk.",
+    "short_effect": "Requires a turn to charge before attacking.",
+    "effect_chance": null
+  },
+  {
+    "id": 77,
+    "name": "poison-powder",
+    "description": "Poisons the target.",
+    "short_effect": "Poisons the target.",
+    "effect_chance": null
+  },
+  {
+    "id": 78,
+    "name": "stun-spore",
+    "description": "Paralyzes the target.",
+    "short_effect": "Paralyzes the target.",
+    "effect_chance": null
+  },
+  {
+    "id": 79,
+    "name": "sleep-powder",
+    "description": "Puts the target to sleep.",
+    "short_effect": "Puts the target to sleep.",
+    "effect_chance": null
+  },
+  {
+    "id": 80,
+    "name": "petal-dance",
+    "description": "Inflicts regular damage.  User is forced to attack with this move for 2–3 turns,selected at random.  After the last hit, the user becomes confused.\n\nSafeguard does not protect against the confusion from this move.",
+    "short_effect": "Hits every turn for 2-3 turns, then confuses the user.",
+    "effect_chance": null
+  },
+  {
+    "id": 81,
+    "name": "string-shot",
+    "description": "Lowers the target’s Speed by two stages.",
+    "short_effect": "Lowers the target’s Speed by two stages.",
+    "effect_chance": null
+  },
+  {
+    "id": 82,
+    "name": "dragon-rage",
+    "description": "Inflicts exactly 40 damage.",
+    "short_effect": "Inflicts 40 points of damage.",
+    "effect_chance": null
+  },
+  {
+    "id": 83,
+    "name": "fire-spin",
+    "description": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nRapid Spin cancels this effect.",
+    "short_effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+    "effect_chance": 100
+  },
+  {
+    "id": 84,
+    "name": "thunder-shock",
+    "description": "Inflicts regular damage.  Has a chance to paralyze the target.",
+    "short_effect": "Has a chance to paralyze the target.",
+    "effect_chance": 10
+  },
+  {
+    "id": 85,
+    "name": "thunderbolt",
+    "description": "Inflicts regular damage.  Has a chance to paralyze the target.",
+    "short_effect": "Has a chance to paralyze the target.",
+    "effect_chance": 10
+  },
+  {
+    "id": 86,
+    "name": "thunder-wave",
+    "description": "Paralyzes the target.",
+    "short_effect": "Paralyzes the target.",
+    "effect_chance": null
+  },
+  {
+    "id": 87,
+    "name": "thunder",
+    "description": "Inflicts regular damage.  Has a chance to paralyze the target.\n\nDuring Rain Dance, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of Protect and Detect.\n\nDuring Sunny Day, this move has 50% accuracy.",
+    "short_effect": "Has a chance to paralyze the target.",
+    "effect_chance": 30
+  },
+  {
+    "id": 88,
+    "name": "rock-throw",
+    "description": "Inflicts regular damage.",
+    "short_effect": "Inflicts regular damage with no additional effect.",
+    "effect_chance": null
+  },
+  {
+    "id": 89,
+    "name": "earthquake",
+    "description": "Inflicts regular damage.\n\nIf the target is in the first turn of Dig, this move will hit with double power.",
+    "short_effect": "Inflicts regular damage and can hit Dig users.",
+    "effect_chance": null
+  },
+  {
+    "id": 90,
+    "name": "fissure",
+    "description": "Inflicts damage equal to the target’s max HP.  Ignores accuracy and evasion modifiers.  This move’s accuracy is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will fail.\n\nBecause this move inflicts a specific and finite amount of damage, Endure still prevents the target from fainting.\n\nThe effects of Lock-On, Mind Reader, and No Guard still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through Detect or Protect.",
+    "short_effect": "Causes a one-hit KO.",
+    "effect_chance": null
+  },
+  {
+    "id": 91,
+    "name": "dig",
+    "description": "Inflicts regular damage.  User digs underground for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, Earthquake, Fissure, and Magnitude still hit the user normally, and their power is doubled if appropriate.\n\nThe user may be hit during its immune turn if under the effect of Lock-On, Mind Reader, or No Guard.\n\nThis move cannot be selected by Sleep Talk.",
+    "short_effect": "User digs underground, dodging all attacks, and hits next turn.",
+    "effect_chance": null
+  },
+  {
+    "id": 92,
+    "name": "toxic",
+    "description": "Badly poisons the target.  Never misses when used by a Poison-type Pokémon.",
+    "short_effect": "Badly poisons the target, inflicting more damage every turn.",
+    "effect_chance": null
+  },
+  {
+    "id": 93,
+    "name": "confusion",
+    "description": "Inflicts regular damage.  Has a chance to confuse the target.",
+    "short_effect": "Has a chance to confuse the target.",
+    "effect_chance": 10
+  },
+  {
+    "id": 94,
+    "name": "psychic",
+    "description": "Inflicts regular damage.  Has a chance to lower the target’s Special Defense by one stage.",
+    "short_effect": "Has a chance to lower the target’s Special Defense by one stage.",
+    "effect_chance": 10
+  },
+  {
+    "id": 95,
+    "name": "hypnosis",
+    "description": "Puts the target to sleep.",
+    "short_effect": "Puts the target to sleep.",
+    "effect_chance": null
+  },
+  {
+    "id": 96,
+    "name": "meditate",
+    "description": "Raises the user’s Attack by one stage.",
+    "short_effect": "Raises the user’s Attack by one stage.",
+    "effect_chance": null
+  },
+  {
+    "id": 97,
+    "name": "agility",
+    "description": "Raises the user’s Speed by two stages.",
+    "short_effect": "Raises the user’s Speed by two stages.",
+    "effect_chance": null
+  },
+  {
+    "id": 98,
+    "name": "quick-attack",
+    "description": "Inflicts regular damage.",
+    "short_effect": "Inflicts regular damage with no additional effect.",
+    "effect_chance": null
+  },
+  {
+    "id": 99,
+    "name": "rage",
+    "description": "Inflicts regular damage.  Every time the user is hit after it uses this move but before its next action, its Attack raises by one stage.",
+    "short_effect": "If the user is hit after using this move, its Attack rises by one stage.",
+    "effect_chance": null
+  },
+  {
+    "id": 100,
+    "name": "teleport",
+    "description": "Does nothing.  Wild battles end immediately.",
+    "short_effect": "Immediately ends wild battles.  No effect otherwise.",
+    "effect_chance": null
+  },
+  {
+    "id": 101,
+    "name": "night-shade",
+    "description": "Inflicts damage equal to the user’s level.  Type immunity applies, but other type effects are ignored.",
+    "short_effect": "Inflicts damage equal to the user’s level.",
+    "effect_chance": null
+  },
+  {
+    "id": 102,
+    "name": "mimic",
+    "description": "This move is replaced by the target’s last successfully used move, and its PP changes to 5.  If the target hasn’t used a move since entering the field, if it tried to use a move this turn and failed, or if the user already knows the targeted move, this move will fail.  This effect vanishes when the user leaves the field.\n\nIf Chatter, Metronome, Mimic, Sketch, or Struggle is selected, this move will fail.\n\nThis move cannot be copied by Mirror Move, nor selected by Assist or Metronome, nor forced by Encore.",
+    "short_effect": "Copies the target’s last used move.",
+    "effect_chance": null
+  },
+  {
+    "id": 103,
+    "name": "screech",
+    "description": "Lowers the target’s Defense by two stages.",
+    "short_effect": "Lowers the target’s Defense by two stages.",
+    "effect_chance": null
+  },
+  {
+    "id": 104,
+    "name": "double-team",
+    "description": "Raises the user’s evasion by one stage.",
+    "short_effect": "Raises the user’s evasion by one stage.",
+    "effect_chance": null
+  },
+  {
+    "id": 105,
+    "name": "recover",
+    "description": "Heals the user for half its max HP.",
+    "short_effect": "Heals the user by half its max HP.",
+    "effect_chance": null
+  },
+  {
+    "id": 106,
+    "name": "harden",
+    "description": "Raises the user’s Defense by one stage.",
+    "short_effect": "Raises the user’s Defense by one stage.",
+    "effect_chance": null
+  },
+  {
+    "id": 107,
+    "name": "minimize",
+    "description": "Raises the user’s evasion by two stages.\n\nStomp and Steamroller have double power against Pokémon that have used this move since entering the field.",
+    "short_effect": "Raises the user’s evasion by two stages.",
+    "effect_chance": null
+  },
+  {
+    "id": 108,
+    "name": "smokescreen",
+    "description": "Lowers the target’s accuracy by one stage.",
+    "short_effect": "Lowers the target’s accuracy by one stage.",
+    "effect_chance": null
+  },
+  {
+    "id": 109,
+    "name": "confuse-ray",
+    "description": "Confuses the target.",
+    "short_effect": "Confuses the target.",
+    "effect_chance": null
+  },
+  {
+    "id": 110,
+    "name": "withdraw",
+    "description": "Raises the user’s Defense by one stage.",
+    "short_effect": "Raises the user’s Defense by one stage.",
+    "effect_chance": null
+  },
+  {
+    "id": 111,
+    "name": "defense-curl",
+    "description": "Raises user’s Defense by one stage.\n\nAfter this move is used, the power of Ice Ball and Rollout are doubled until the user leaves the field.",
+    "short_effect": "Raises user’s Defense by one stage.",
+    "effect_chance": null
+  },
+  {
+    "id": 112,
+    "name": "barrier",
+    "description": "Raises the user’s Defense by two stages.",
+    "short_effect": "Raises the user’s Defense by two stages.",
+    "effect_chance": null
+  },
+  {
+    "id": 113,
+    "name": "light-screen",
+    "description": "Erects a barrier around the user’s side of the field that reduces damage from special attacks by half for five turns.  In double battles, the reduction is 1/3.  Critical hits are not affected by the barrier.\n\nIf the user is holding Light Clay, the barrier lasts for eight turns.\n\nBrick Break or Defog used by an opponent will destroy the barrier.",
+    "short_effect": "Reduces damage from special attacks by 50% for five turns.",
+    "effect_chance": null
+  },
+  {
+    "id": 114,
+    "name": "haze",
+    "description": "Removes stat, accuracy, and evasion modifiers from every Pokémon on the field.\n\nThis does not count as a stat reduction for the purposes of Clear Body or White Smoke.",
+    "short_effect": "Resets all Pokémon’s stats, accuracy, and evasion.",
+    "effect_chance": null
+  },
+  {
+    "id": 115,
+    "name": "reflect",
+    "description": "Erects a barrier around the user’s side of the field that reduces damage from physical attacks by half for five turns.  In double battles, the reduction is 1/3.  Critical hits are not affected by the barrier.\n\nIf the user is holding Light Clay, the barrier lasts for eight turns.\n\nBrick Break or Defog used by an opponent will destroy the barrier.",
+    "short_effect": "Reduces damage from physical attacks by half.",
+    "effect_chance": null
+  },
+  {
+    "id": 116,
+    "name": "focus-energy",
+    "description": "User’s critical hit rate is two levels higher until it leaves the field.  If the user has already used Focus Energy since entering the field, this move will fail.\n\nThis effect is passed on by Baton Pass.",
+    "short_effect": "Increases the user’s chance to score a critical hit.",
+    "effect_chance": null
+  },
+  {
+    "id": 117,
+    "name": "bide",
+    "description": "User waits for two turns.  On the second turn, the user inflicts twice the damage it accumulated on the last Pokémon to hit it.  Damage inflicted is typeless.\n\nThis move cannot be selected by Sleep Talk.",
+    "short_effect": "User waits for two turns, then hits back for twice the damage it took.",
+    "effect_chance": null
+  },
+  {
+    "id": 118,
+    "name": "metronome",
+    "description": "Selects any move at random and uses it.  Moves the user already knows are not eligible.  Assist, meta, protection, and reflection moves are also not eligible; specifically, Assist, Chatter, Copycat, Counter, Covet, Destiny Bond, Detect, Endure, Feint, Focus Punch, Follow Me, Helping Hand, Me First, Metronome, Mimic, Mirror Coat, Mirror Move, Protect, Quick Guard, Sketch, Sleep Talk, Snatch, Struggle, Switcheroo, Thief, Trick, and Wide Guard will not be selected by this move.\n\nThis move cannot be copied by Mimic or Mirror Move, nor selected by Assist, Metronome, or Sleep Talk.",
+    "short_effect": "Randomly selects and uses any move in the game.",
+    "effect_chance": null
+  },
+  {
+    "id": 119,
+    "name": "mirror-move",
+    "description": "Uses the last move targeted at the user by a Pokémon still on the field.  A move counts as targeting the user even if it hit multiple Pokémon, as long as the user was one of them; however, moves targeting the field itself do not count.  If the user has not been targeted by an appropriate move since entering the field, or if no Pokémon that targeted the user remains on the field, this move will fail.\n\nMoves that failed, missed, had no effect, or were blocked are still copied.\n\nAssist moves, time-delayed moves, “meta” moves that operate on other moves/Pokémon/abilities, and some other special moves cannot be copied and are ignored; if the last move to hit the user was such a move, the previous move will be used instead.  The full list of ignored moves is: Acid Armor, Acupressure, After You, Agility, Ally Switch, Amnesia, Aqua Ring, Aromatherapy, Aromatic Mist, Assist, Autotomize, Barrier, Baton Pass, Belch, Belly Drum, Bide, Bulk Up, Calm Mind, Camouflage, Celebrate, Charge, Coil, Conversion, Conversion 2, Copycat, Cosmic Power, Cotton Guard, Counter, Crafty Shield, Curse, Defend Order, Defense Curl, Destiny Bond, Detect, Doom Desire, Double Team, Dragon Dance, Electric Terrain, Endure, Final Gambit, Flower Shield, Focus Energy, Focus Punch, Follow Me, Future Sight, Geomancy, Grassy Terrain, Gravity, Growth, Grudge, Guard Split, Hail, Happy Hour, Harden, Haze, Heal Bell, Heal Order, Heal Pulse, Healing Wish, Helping Hand, Hold Hands, Hone Claws, Howl, Imprison, Ingrain, Ion Deluge, Iron Defense, King’s Shield, Light Screen, Lucky Chant, Lunar Dance, Magic Coat, Magnet Rise, Magnetic Flux, Mat Block, Me First, Meditate, Metronome, Milk Drink, Mimic, Minimize, Mirror Coat, Mirror Move, Mist, Misty Terrain, Moonlight, Morning Sun, Mud Sport, Nasty Plot, Nature Power, Perish Song, Power Split, Power Trick, Protect, Psych Up, Quick Guard, Quiver Dance, Rage Powder, Rain Dance, Recover, Recycle, Reflect, Reflect Type, Refresh, Rest, Rock Polish, Role Play, Roost, Rototiller, Safeguard, Sandstorm, Shadow Blast, Shadow Bolt, Shadow Half, Shadow Rush, Shadow Shed, Shadow Sky, Shadow Storm, Shadow Wave, Sharpen, Shell Smash, Shift Gear, Sketch, Slack Off, Sleep Talk, Snatch, Soft-Boiled, Spikes, Spiky Shield, Spit Up, Splash, Stealth Rock, Sticky Web, Stockpile, Struggle, Substitute, Sunny Day, Swallow, Swords Dance, Synthesis, Tail Glow, Tailwind, Teleport, Toxic Spikes, Transform, Water Sport, Wide Guard, Wish, Withdraw and Work Up.\n\nThis move cannot be selected by Assist, Metronome, or Sleep Talk, nor forced by Encore.",
+    "short_effect": "Uses the target’s last used move.",
+    "effect_chance": null
+  },
+  {
+    "id": 120,
+    "name": "self-destruct",
+    "description": "User faints, even if the attack fails or misses.  Inflicts regular damage.",
+    "short_effect": "User faints.",
+    "effect_chance": null
+  },
+  {
+    "id": 121,
+    "name": "egg-bomb",
+    "description": "Inflicts regular damage.",
+    "short_effect": "Inflicts regular damage with no additional effect.",
+    "effect_chance": null
+  },
+  {
+    "id": 122,
+    "name": "lick",
+    "description": "Inflicts regular damage.  Has a chance to paralyze the target.",
+    "short_effect": "Has a chance to paralyze the target.",
+    "effect_chance": 30
+  },
+  {
+    "id": 123,
+    "name": "smog",
+    "description": "Inflicts regular damage.  Has a chance to poison the target.",
+    "short_effect": "Has a chance to poison the target.",
+    "effect_chance": 40
+  },
+  {
+    "id": 124,
+    "name": "sludge",
+    "description": "Inflicts regular damage.  Has a chance to poison the target.",
+    "short_effect": "Has a chance to poison the target.",
+    "effect_chance": 30
+  },
+  {
+    "id": 125,
+    "name": "bone-club",
+    "description": "Inflicts regular damage.  Has a chance to make the target flinch.",
+    "short_effect": "Has a chance to make the target flinch.",
+    "effect_chance": 10
+  },
+  {
+    "id": 126,
+    "name": "fire-blast",
+    "description": "Inflicts regular damage.  Has a chance to burn the target.",
+    "short_effect": "Has a chance to burn the target.",
+    "effect_chance": 10
+  },
+  {
+    "id": 127,
+    "name": "waterfall",
+    "description": "Inflicts regular damage.  Has a chance to make the target flinch.",
+    "short_effect": "Has a chance to make the target flinch.",
+    "effect_chance": 20
+  },
+  {
+    "id": 128,
+    "name": "clamp",
+    "description": "Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\nRapid Spin cancels this effect.",
+    "short_effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+    "effect_chance": 100
+  },
+  {
+    "id": 129,
+    "name": "swift",
+    "description": "Inflicts regular damage.  Ignores accuracy and evasion modifiers.",
+    "short_effect": "Never misses.",
+    "effect_chance": null
+  },
+  {
+    "id": 130,
+    "name": "skull-bash",
+    "description": "Inflicts regular damage.  Raises the user’s Defense by one stage.  User then charges for one turn before attacking.\n\nThis move cannot be selected by Sleep Talk.",
+    "short_effect": "Raises the user’s Defense by one stage.  User charges for one turn before attacking.",
+    "effect_chance": 100
+  },
+  {
+    "id": 131,
+    "name": "spike-cannon",
+    "description": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+    "short_effect": "Hits 2-5 times in one turn.",
+    "effect_chance": null
+  },
+  {
+    "id": 132,
+    "name": "constrict",
+    "description": "Inflicts regular damage.  Has a chance to lower the target’s Speed by one stage.",
+    "short_effect": "Has a chance to lower the target’s Speed by one stage.",
+    "effect_chance": 10
+  },
+  {
+    "id": 133,
+    "name": "amnesia",
+    "description": "Raises the user’s Special Defense by two stages.",
+    "short_effect": "Raises the user’s Special Defense by two stages.",
+    "effect_chance": null
+  },
+  {
+    "id": 134,
+    "name": "kinesis",
+    "description": "Lowers the target’s accuracy by one stage.",
+    "short_effect": "Lowers the target’s accuracy by one stage.",
+    "effect_chance": null
+  },
+  {
+    "id": 135,
+    "name": "soft-boiled",
+    "description": "Heals the user for half its max HP.",
+    "short_effect": "Heals the user by half its max HP.",
+    "effect_chance": null
+  },
+  {
+    "id": 136,
+    "name": "high-jump-kick",
+    "description": "Inflicts regular damage. If this move misses, is blocked by Protect or Detect, or has no effect, the user takes damage equal to half of its max HP rounded down.\n\nThis move cannot be used while Gravity is in effect.",
+    "short_effect": "If the user misses, it takes half the damage it would have inflicted in recoil.",
+    "effect_chance": null
+  },
+  {
+    "id": 137,
+    "name": "glare",
+    "description": "Paralyzes the target.",
+    "short_effect": "Paralyzes the target.",
+    "effect_chance": null
+  },
+  {
+    "id": 138,
+    "name": "dream-eater",
+    "description": "Fails if not used on a sleeping Pokémon.  Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
+    "short_effect": "Only works on sleeping Pokémon.  Drains half the damage inflicted to heal the user.",
+    "effect_chance": null
+  },
+  {
+    "id": 139,
+    "name": "poison-gas",
+    "description": "Poisons the target.",
+    "short_effect": "Poisons the target.",
+    "effect_chance": null
+  },
+  {
+    "id": 140,
+    "name": "barrage",
+    "description": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+    "short_effect": "Hits 2-5 times in one turn.",
+    "effect_chance": null
+  },
+  {
+    "id": 141,
+    "name": "leech-life",
+    "description": "Inflicts regular damage.  Drains half the damage inflicted to heal the user.",
+    "short_effect": "Drains half the damage inflicted to heal the user.",
+    "effect_chance": null
+  },
+  {
+    "id": 142,
+    "name": "lovely-kiss",
+    "description": "Puts the target to sleep.",
+    "short_effect": "Puts the target to sleep.",
+    "effect_chance": null
+  },
+  {
+    "id": 143,
+    "name": "sky-attack",
+    "description": "Inflicts regular damage.  User charges for one turn before attacking.  Critical hit chance is one level higher than normal.  Has a chance to make the target flinch.\n\nThis move cannot be selected by Sleep Talk.",
+    "short_effect": "User charges for one turn before attacking.  Has a chance to make the target flinch.",
+    "effect_chance": 30
+  },
+  {
+    "id": 144,
+    "name": "transform",
+    "description": "User copies the target’s species, weight, type, ability, calculated stats (except HP), and moves.  Copied moves will all have 5 PP remaining.  IVs are copied for the purposes of Hidden Power, but stats are not recalculated.\n\nChoice Band, Choice Scarf, and Choice Specs stay in effect, and the user must select a new move.\n\nThis move cannot be copied by Mirror Move, nor forced by Encore.",
+    "short_effect": "User becomes a copy of the target until it leaves battle.",
+    "effect_chance": null
+  },
+  {
+    "id": 145,
+    "name": "bubble",
+    "description": "Inflicts regular damage.  Has a chance to lower the target’s Speed by one stage.",
+    "short_effect": "Has a chance to lower the target’s Speed by one stage.",
+    "effect_chance": 10
+  },
+  {
+    "id": 146,
+    "name": "dizzy-punch",
+    "description": "Inflicts regular damage.  Has a chance to confuse the target.",
+    "short_effect": "Has a chance to confuse the target.",
+    "effect_chance": 20
+  },
+  {
+    "id": 147,
+    "name": "spore",
+    "description": "Puts the target to sleep.",
+    "short_effect": "Puts the target to sleep.",
+    "effect_chance": null
+  },
+  {
+    "id": 148,
+    "name": "flash",
+    "description": "Lowers the target’s accuracy by one stage.",
+    "short_effect": "Lowers the target’s accuracy by one stage.",
+    "effect_chance": null
+  },
+  {
+    "id": 149,
+    "name": "psywave",
+    "description": "Inflicts typeless damage between 50% and 150% of the user’s level, selected at random in increments of 10%.",
+    "short_effect": "Inflicts damage between 50% and 150% of the user’s level.",
+    "effect_chance": null
+  },
+  {
+    "id": 150,
+    "name": "splash",
+    "description": "Does nothing.\n\nThis move cannot be used while Gravity is in effect.",
+    "short_effect": "Does nothing.",
+    "effect_chance": null
+  },
+  {
+    "id": 151,
+    "name": "acid-armor",
+    "description": "Raises the user’s Defense by two stages.",
+    "short_effect": "Raises the user’s Defense by two stages.",
+    "effect_chance": null
+  },
+  {
+    "id": 152,
+    "name": "crabhammer",
+    "description": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.",
+    "short_effect": "Has an increased chance for a critical hit.",
+    "effect_chance": null
+  },
+  {
+    "id": 153,
+    "name": "explosion",
+    "description": "User faints, even if the attack fails or misses.  Inflicts regular damage.",
+    "short_effect": "User faints.",
+    "effect_chance": null
+  },
+  {
+    "id": 154,
+    "name": "fury-swipes",
+    "description": "Inflicts regular damage.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
+    "short_effect": "Hits 2-5 times in one turn.",
+    "effect_chance": null
+  },
+  {
+    "id": 155,
+    "name": "bonemerang",
+    "description": "Inflicts regular damage.  Hits twice in one turn.",
+    "short_effect": "Hits twice in one turn.",
+    "effect_chance": null
+  },
+  {
+    "id": 156,
+    "name": "rest",
+    "description": "User falls to sleep and immediately regains all its HP.  If the user has another major status effect, sleep will replace it.  The user will always wake up after two turns, or one turn with Early Bird.\n\nThis move fails if the Pokémon cannot fall asleep due to Uproar, Insomnia, or Vital Spirit.  It also fails if the Pokémon is at full health or is already asleep.",
+    "short_effect": "User sleeps for two turns, completely healing itself.",
+    "effect_chance": null
+  },
+  {
+    "id": 157,
+    "name": "rock-slide",
+    "description": "Inflicts regular damage.  Has a chance to make the target flinch.",
+    "short_effect": "Has a chance to make the target flinch.",
+    "effect_chance": 30
+  },
+  {
+    "id": 158,
+    "name": "hyper-fang",
+    "description": "Inflicts regular damage.  Has a chance to make the target flinch.",
+    "short_effect": "Has a chance to make the target flinch.",
+    "effect_chance": 10
+  },
+  {
+    "id": 159,
+    "name": "sharpen",
+    "description": "Raises the user’s Attack by one stage.",
+    "short_effect": "Raises the user’s Attack by one stage.",
+    "effect_chance": null
+  },
+  {
+    "id": 160,
+    "name": "conversion",
+    "description": "User’s type changes to the type of one of its moves, selected at random.  Hidden Power and Weather Ball are treated as Normal.  Only moves with a different type are eligible, and Curse is never eligible.  If the user has no suitable moves, this move will fail.",
+    "short_effect": "User’s type changes to the type of one of its moves at random.",
+    "effect_chance": null
+  },
+  {
+    "id": 161,
+    "name": "tri-attack",
+    "description": "Inflicts regular damage.  Has a chance to burn, freeze, or paralyze the target.  One of these effects is selected at random; they do not each have independent chances to occur.",
+    "short_effect": "Has a chance to burn, freeze, or paralyze the target.",
+    "effect_chance": 20
+  },
+  {
+    "id": 162,
+    "name": "super-fang",
+    "description": "Inflicts typeless damage equal to half the target’s remaining HP.",
+    "short_effect": "Inflicts damage equal to half the target’s HP.",
+    "effect_chance": null
+  },
+  {
+    "id": 163,
+    "name": "slash",
+    "description": "Inflicts regular damage.  User’s critical hit rate is one level higher when using this move.",
+    "short_effect": "Has an increased chance for a critical hit.",
+    "effect_chance": null
+  },
+  {
+    "id": 164,
+    "name": "substitute",
+    "description": "Transfers 1/4 the user’s max HP into a doll that absorbs damage and causes most negative move effects to fail.  If the user leaves the field, the doll will vanish.  If the user cannot pay the HP cost, this move will fail.\n\nThe doll takes damage as normal, using the user’s stats and types, and will break when its HP reaches zero.  Self-inflicted damage from confusion or recoil is not absorbed.  Healing effects from opponents ignore the doll and heal the user as normal.  Moves that work based on the user’s HP still do so; the doll’s HP does not influence any move.\n\nThe doll will block major status effects, confusion, and flinching.  The effects of Smelling Salts and Wake-Up Slap do not trigger against a doll, even if the Pokémon behind the doll has the appropriate major status effect.  Multi-turn trapping moves like Wrap will hit the doll for their regular damage, but the multi-turn trapping and damage effects will not activate.\n\nMoves blocked or damage absorbed by the doll do not count as hitting the user or inflicting damage for any effects that respond to such, e.g., Avalanche, Counter, or a Rowap Berry.  Magic Coat still works as normal, even against moves the doll would block.  Opposing Pokémon that damage the doll with a leech move like Absorb are healed as normal.\n\nIt will also block Acupressure, Block, the curse effect of Curse, Dream Eater, Embargo, Flatter, Gastro Acid, Grudge, Heal Block, Leech Seed, Lock-On, Mean Look, Mimic, Mind Reader, Nightmare, Pain Split, Psycho Shift, Spider Web, Sketch, Swagger, Switcheroo, Trick, Worry Seed, and Yawn.  A Pokémon affected by Yawn before summoning the doll will still fall to sleep.\n\nThe doll blocks Intimidate, but all other abilities act as though the doll did not exist.  If the user has an ability that absorbs moves of a certain type for HP (such as Volt Absorb absorbing Thunder Wave), such moves will not be blocked.\n\nLife Orb and berries that cause confusion still work as normal, but their respective HP loss and confusion are absorbed/blocked by the doll.\n\nThe user is still vulnerable to damage inflicted when entering or leaving the field, such as by Pursuit or Spikes; however, the doll will block the poison effect of Toxic Spikes.\n\nThe doll is passed on by Baton Pass.  It keeps its existing HP, but uses the replacement Pokémon’s stats and types for damage calculation.\n\nAll other effects work as normal.",
+    "short_effect": "Transfers 1/4 of the user’s max HP into a doll, protecting the user from further damage or status changes until it breaks.",
+    "effect_chance": null
+  },
+  {
+    "id": 165,
+    "name": "struggle",
+    "description": "Inflicts typeless regular damage.  User takes 1/4 its max HP in recoil.  Ignores accuracy and evasion modifiers.\n\nThis move is used automatically when a Pokémon cannot use any other move legally, e.g., due to having no PP remaining or being under the effect of both Encore and Torment at the same time.\n\nThis move’s recoil is not treated as recoil for the purposes of anything that affects recoil, such as the ability Rock Head.  It also is not prevented by Magic Guard.\n\nThis move cannot be copied by Mimic, Mirror Move, or Sketch, nor selected by Assist or Metronome, nor forced by Encore.",
+    "short_effect": "User takes 1/4 its max HP in recoil.",
+    "effect_chance": null
+  }
+]

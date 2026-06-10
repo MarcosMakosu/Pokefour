@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://via.placeholder.com/800x200.png?text=PokéFour" alt="Banner PokéFour" width="600"/>
+  <img src="logo_prov.png" alt="Banner PokéFour" width="600"/>
 </p>
 
 
@@ -127,6 +127,11 @@ Assim, se chover em Belém do Pará, os canais com bioma **floresta** terão mui
 - [ ] **Integração com fuso horário local** para precisão do ciclo dia/noite.
 - [ ] **Mais cidades e biomas** na configuração padrão.
 
+## 🚧 Gerações adicionadas
+
+- Geração 1 | 001 - 151 
+
+
 ---
 
 <details>
@@ -166,52 +171,13 @@ Assim, se chover em Belém do Pará, os canais com bioma **floresta** terão mui
    ```
 </details>
 
-<details>
-<summary> ⚙️ Sistema de Spawns Condicionais Codigo</summary>
-
-## 🌿 Sistema de Spawns Condicionais
-
-Cada canal possui um **bioma** (definido via `!setbiome`) que está associado a uma **cidade real** no arquivo `biomes_config.json`. O bot verifica periodicamente o clima dessa cidade através da OpenWeatherMap e ajusta os spawns de acordo com as condições.
-
-### Exemplo de `biomes_config.json`
-```json
-{
-  "floresta": {
-    "city": "Belém do Pará, BR",
-    "lat": -1.455,
-    "lon": -48.504
-  },
-  "deserto": {
-    "city": "Dubai, AE",
-    "lat": 25.2048,
-    "lon": 55.2708
-  }
-}
-```
-
-### Condições de spawn (arquivo `spawn_conditions.json`)
-Cada Pokémon pode ter condições especiais que aumentam sua taxa de aparição:
-```json
-{
-  "129": {
-    "name": "Magikarp",
-    "boost": [
-      {"condition": "weather.rain", "multiplier": 3.0},
-      {"condition": "moon.full_moon", "multiplier": 1.5}
-    ]
-  }
-}
-```
-- **weather.rain**: chuva reportada pela API de clima.
-- **moon.full_moon**: lua cheia (obtida via OpenWeatherMap One Call).
-- **time.night**: período noturno (baseado no fuso horário do servidor).
-
-Assim, se chover em Belém do Pará, os canais com bioma **floresta** terão muito mais Magikarp, Goldeen e outros Pokémon aquáticos!
-
-</details>
-
 ---
-## 🤝 Como Contribuir
+## 🤝 Pendencias e Como Contribuir
+
+### Banco de Dados
+ Temos dois arquivos em JSON, um para os pokemons e suas **Condições Multiplicadoras** e o de **Movimentos Especiais**. 
+- O banco de dados de **condições multiplicadoras** carece de informações que poderiam trazer mais dinamica ao sistema de spawn do pokemon, informações que poderiam ser preenchidas com base em ardua leitura da pokedex.  
+- O banco de dados dos **Movimentos especiais** carecem de serem programadas seguindo o alinhamento do [JSON](lowdb/special_moves.json), vale fazer leitura do [Codigo do Sistema de batalha](cogs/battles.py)
 
 ### codigo
 1. Fork o projeto.
@@ -231,3 +197,5 @@ Distribuído sob a licença GPL 3.0. Veja `LICENSE` para mais informações.
 *Feito com ☕ por Marquinhos*  
 *Pokémon é uma marca registrada da Nintendo, Game Freak e Creatures Inc.*
 *Por favor Nitendo não me processe*
+
+```
