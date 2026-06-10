@@ -231,5 +231,3 @@ Distribuído sob a licença GPL 3.0. Veja `LICENSE` para mais informações.
 *Feito com ☕ por Marquinhos*  
 *Pokémon é uma marca registrada da Nintendo, Game Freak e Creatures Inc.*
 *Por favor Nitendo não me processe*
-
-```
