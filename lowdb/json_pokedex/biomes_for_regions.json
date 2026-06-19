@@ -1,0 +1,163 @@
+{
+  "Biomes": {
+    "Kanto": {
+      "main_biomes": [
+        "Forest",
+        "Plains",
+        "Mega_Town",
+        "Mountain",
+        "Beach",
+        "Cave"
+      ]
+    },
+    "Sevii_Islands": {
+      "main_biomes": [
+        "Tropical_Forest",
+        "Volcano",
+        "Ruins",
+        "Beach",
+        "Tropical_Archipelago"
+      ]
+    },
+    "Johto": {
+      "main_biomes": [
+        "Plains",
+        "Forest",
+        "Mountain",
+        "Lake",
+        "Cave",
+        "Swamp",
+        "Rocky_Area"
+      ]
+    },
+    "Hoenn": {
+      "main_biomes": [
+        "Tropical_Forest",
+        "Mountain",
+        "Wasteland",
+        "Desert",
+        "Volcano",
+        "Cave",
+        "Open_Ocean",
+        "Water_Cave"
+      ]
+    },
+    "Sinnoh": {
+      "main_biomes": [
+        "Tundra",
+        "Snowfield",
+        "Mountain",
+        "Lake",
+        "Swamp",
+        "Cave",
+        "Plains"
+      ]
+    },
+    "Great_Subworld": {
+      "main_biomes": [
+        "Swamp",
+        "Desert",
+        "Snowfield"
+      ]
+    },
+    "Unova": {
+      "main_biomes": [
+        "Mega_Town",
+        "Forest",
+        "Mountain",
+        "Swamp",
+        "Desert",
+        "Wasteland",
+        "Cave",
+        "Rocky_Area"
+      ]
+    },
+    "Kalos": {
+      "main_biomes": [
+        "Plains",
+        "Temperate_Forest",
+        "Forest",
+        "Enchanted_Forest",
+        "Taiga",
+        "Mountain",
+        "Cave",
+        "Coastline",
+        "Beach",
+        "Lake",
+        "Riverside"
+      ]
+    },
+    "Alola": {
+      "main_biomes": [
+        "Beach",
+        "Volcano",
+        "Mountain",
+        "Tropical_Forest",
+        "Flowers_Camps"
+      ]
+    },
+    "Galar": {
+      "main_biomes": [
+        "Plains",
+        "Forest",
+        "Mountain",
+        "Swamp",
+        "Snowfield",
+        "Cave"
+      ]
+    },
+    "Paldea": {
+      "main_biomes": [
+        "Plains",
+        "Mountain",
+        "Forest",
+        "Desert",
+        "Lake",
+        "Beach",
+        "Rocky_Area",
+        "Ruins",
+        "Swamp",
+        "Cave"
+      ]
+    },
+    "Hisui": {
+      "main_biomes": [
+        "Plains",
+        "Forest",
+        "Mountain",
+        "Swamp",
+        "Beach",
+        "Snowfield",
+        "Lake",
+        "Cave",
+        "Ruins"
+      ]
+    },
+    "Terarium": {
+      "main_biomes": [
+        "Tropical_Forest",
+        "Coastline",
+        "Rocky_Area",
+        "Snowfield"
+      ]
+    },
+    "Kitakame": {
+      "main_biomes": [
+        "Plains",
+        "Rocky_Area",
+        "Lake"
+      ]
+    }
+  },
+  "Anomalous_Biomes": {
+    "Distortion_World": [
+      "Distortion_Biome"
+    ],
+    "Ultra_space": [
+      "Ultra_Space_Biome"
+    ],
+    "Area_zero": [
+      "Area_Zero_Biome"
+    ]
+  }
+}
