@@ -1,0 +1,165 @@
+{
+    "Biome": {
+  "Temperate_Forest": [
+      "Temperate",
+      "Cherry Blossom"
+
+  ],
+  "Tropical_Forest": [
+     "Tropical Island",
+     "Jungle",
+     "Savanna"
+  ],
+  "Bamboo_Forest": [
+      "Bamboo"
+  ],
+  "Forest": [
+      "Forest",
+      "Bumblezone",
+      "Muddy"
+  ],
+  "Enchanted_Forest": [
+      "Magical",
+      "Mushroom",
+      "Mushroom Fields"
+  ],
+  "Flowers_Camps": [
+      "Floral",
+      "Floral Meadow",
+      "Pollinated Fileds",
+      "Sunflower Plains"
+  ],
+  "Taiga": [
+      "Taiga",
+      "Snowy Taiga"
+  ],
+  "Tunda": [
+      "Tundra"
+  ],
+  "plains": [
+      "Plains",
+      "Grassland",
+      "Plateau"
+  ],
+  "Swamp": [
+      "Swamp"
+  ],
+  "Alpine_Mountain": [
+      "Aether",
+      "Peak",
+      "Sky",
+      "Skyroot Forest",
+      "Skyroot Grove",
+      "Skyroot Meadow",
+      "Skyroot Woodland"
+
+  ],
+  "Mountain": [
+      "Mountain",
+      "Highlands",
+      "Hills"
+  ],
+  "Desert": [
+      "Desert"
+  ],
+  "Wasteland": [
+      "Arid",
+      "Badlands"
+  ],
+  "Beach": [
+      "Beach"
+  ],
+  "Coastline": [
+      "Coast"
+  ],
+  "Riverside": [
+      "River",
+      "Flashwater"
+  ],
+  "Snowfield": [
+      "Cold",
+      "Freezing",
+      "Cold Ocean",
+      "Frozen Ocean",
+      "Frozen River",
+      "Glacial",
+      "Nether Frozen",
+      "Snowy Beach",
+      "Snowy Forest"
+  ],
+  "Open_Ocean": [
+      "Ocean",
+      "Lukewarm Ocean",
+      "Warm Ocean"
+  ],
+  "Mine": [
+      "Crystal Canyon"
+  ],
+  "Cave": [
+      "Crystaline Chasm",
+      "Dripstone",
+      "Lush"
+  ],
+  "Water_Cave": [
+      "Deep Ocena"
+  ],
+  "Undergraund" : [
+      "Deep Dark"
+  ],
+  "Ruins": [
+      "Howling Constructs"
+  ],
+  "Tropical_Archipelago": [
+      "Island"
+  ],
+  "Mega_Town": [
+      "City"
+  ],
+  "Volcano": [
+      "Volcanic",
+      "Nether",
+      "Nether Basalt",
+      "Nether Crimson",
+      "Nether Desert",
+      "Nether Forest",
+      "Nether Fungus",
+      "Nether Mountain",
+      "Nether Overgrowth",
+      "Nether Quartz",
+      "Nether Soul Fire",
+      "Nether Soul Sand",
+      "Nether Toxic",
+      "Nether Warped",
+      "Nether Wasteland" 
+  ],
+  "World": [
+      "Overworld"
+  ],
+  "Lake": [
+      "Thermal"
+  ],
+  "Rocky_Area": [
+      "Rocky"
+  ],
+  "Changestone": [
+      "Changestone"
+  ],
+  "Prairie": [
+      "Prairie"
+  ]    
+},
+
+
+ "Anomalous_Biome": {
+  "Distortion_World": [
+      "End",
+      "Spooky"
+  ],
+  "Ultra_Space": [
+      ""
+  ],
+  "Area Zero": [
+      ""
+  ]
+ }
+}

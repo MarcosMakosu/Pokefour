@@ -23,6 +23,7 @@
       "main_biomes": [
         "Plains",
         "Forest",
+        "Bamboo_Forest",
         "Mountain",
         "Lake",
         "Cave",
@@ -47,10 +48,12 @@
         "Tundra",
         "Snowfield",
         "Mountain",
+        "Alpine_Mountain",
         "Lake",
         "Swamp",
         "Cave",
-        "Plains"
+        "Plains",
+        "undergraund"
       ]
     },
     "Great_Subworld": {
@@ -68,6 +71,7 @@
         "Swamp",
         "Desert",
         "Wasteland",
+        "Chargestone",
         "Cave",
         "Rocky_Area"
       ]
@@ -84,7 +88,8 @@
         "Coastline",
         "Beach",
         "Lake",
-        "Riverside"
+        "Riverside",
+        "Praire"
       ]
     },
     "Alola": {
@@ -103,7 +108,8 @@
         "Mountain",
         "Swamp",
         "Snowfield",
-        "Cave"
+        "Cave",
+        "Mine"
       ]
     },
     "Paldea": {
@@ -131,6 +137,7 @@
         "Lake",
         "Cave",
         "Ruins"
+        "Bamboo_Forest"
       ]
     },
     "Terarium": {
