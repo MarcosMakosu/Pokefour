@@ -1,0 +1,3 @@
+- adicionar no pokemon um indicador de spawn por bioma em vez de por pokemon
+- adicionar antibiomes
+- adicionar antiocondicions

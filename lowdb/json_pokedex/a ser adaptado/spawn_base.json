@@ -1,26 +1,779 @@
 {
   "1": {
+    "name": "Bulbasaur",
     "rarity": "ultra-rare",
-    "base_weight": 5.0,
-    "levels": { "min": 1, "max": 10 },
-    "biomes": ["Tropical_Forest", ""],
+    "base_weight": 8.0,
+    "levels": { "min": 1, "max": 32 },
+    "biomes": ["Tropical_Forest"],
+    "visual_forms": ["default"],
     "spawn_rules": [
       {
         "required_conditions": {
-          "time_range": { "min_hour": 6, "max_hour": 18 },
-          "weather": ["clear", "sunny"]
+          "time_range": { "min_hour": 6, "max_hour": 16 },
+          "weather": ["clear", "hotsunny"]
         },
         "multipliers": {
-          "moon_full": 1.1
+          
         }
       }
     ]
   },
-  "10062": {
-    "rarity": "uncommon",
+  "2": {
+    "name": "Ivysaur",
+    "rarity": "ultra-rare",
+    "base_weight": 13.0,
+    "levels": { "min": 16, "max": 40 },
+    "biomes": ["Tropical_Forest", "Grassland"],
+    "visual_forms": ["default"],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 6, "max_hour": 16  },
+          "weather": ["clear", "hotsunny"]
+        },
+        "multipliers": {
+          
+        }
+      }
+    ]
+  },
+  "3": {
+    "name": "Venusaur",
+    "rarity": "ultra-rare",
+    "base_weight": 100.0,
+    "levels": { "min": 32, "max": 52 },
+    "biomes": ["Tropical_Forest", "Plains", "Swamp"],
+    "visual_forms": ["default"],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 6, "max_hour": 16 },
+          "weather": ["clear", "hotsunny"]
+        },
+        "multipliers": {
+          
+        }
+      }
+    ]
+  },
+  "4": {
+    "name": "Charmander",
+    "rarity": "ultra-rare",
+    "base_weight": 8.0,
+    "levels": { "min": 5, "max": 31 },
+    "biomes": ["Volcano", "mountain"],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 6, "max_hour": 18 },
+          "weather": ["clear", "hotsunny"]
+        },
+        "multipliers": {
+          
+        }
+      }
+    ]
+  },
+  "5": {
+    "name": "Charmeleon",
+    "rarity": "ultra-rare",
+    "base_weight": 13.0,
+    "levels": { "min": 16, "max": 32 },
+    "visual_forms": ["default"],
+    "biomes": ["Volcano", "mountain"],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 6, "max_hour": 18 },
+          "weather": ["clear", "hotsunny"]
+        },
+        "multipliers": {
+          
+        }
+      }
+    ]
+  },
+  "6": {
+    "name": "Charizard",
+    "rarity": "ultra-rare",
+    "base_weight": 100.0,
+    "levels": { "min": 32, "max": 52 },
+    "visual_forms": ["default"],
+    "biomes": ["Volcano", "mountain"],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 6, "max_hour": 18 },
+          "weather": ["clear", "hotsunny"]
+        },
+        "multipliers": {
+          
+        }
+      }
+    ]
+  },
+  "7": {
+    "name": "Squirtle",
+    "rarity": "ultra-rare",
+    "base_weight": 8.0,
+    "levels": { "min": 5, "max": 31 },
+    "visual_forms": ["default"],
+    "biomes": ["Cave", "Riverside", "Beach", "mountain","Tropical_Forest", "Temperate_Forest"   ],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 6, "max_hour": 18 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          
+        }
+      }
+    ]
+  },
+  "8": {
+    "name": "Wartortle",
+    "rarity": "ultra-rare",
+    "base_weight": 13.0,
+    "levels": { "min": 16, "max": 32 },
+    "visual_forms": ["default"],
+    "biomes": ["Cave", "Riverside", "Beach", "mountain","Tropical_Forest", "Temperate_Forest"   ],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 6, "max_hour": 18 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          
+        }
+      }
+    ]
+  },
+  "9": {
+    "name": "Blastoise",
+    "rarity": "ultra-rare",
+    "base_weight": 100.0,
+    "levels": { "min": 32, "max": 52 },
+    "biomes": ["Cave", "Riverside", "Beach", "mountain","Tropical_Forest", "Temperate_Forest"   ],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 6, "max_hour": 18 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          
+        }
+      }
+    ]
+  },
+  "10":  {
+    "name": "Cartepie",
+    "rarity": "Common",
+    "base_weight": 1.0,
+    "levels": { "min": 1, "max": 20 },
+    "visual_forms": ["default", "Valencia"],
+    "biomes": ["Forest", "Plains", "Alpine_Mountaain", "Tropical_Forest", "Flowers_Camps" ],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          
+        }
+      }
+    ]
+  },
+  "11": {
+    "name": "Metapod",
+    "rarity": "Common",
+    "base_weight": 1.0,
+    "levels": { "min": 7, "max": 21 },
+    "visual_forms": ["default", "Valencia"],
+    "biomes": ["Forest", "Plains", "Alpine_Mountaain", "Tropical_Forest", "Flowers_Camps" ],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          
+        }
+      }
+    ]
+  },
+  "12": {
+    "name": "Butterfree",
+    "rarity": "Common",
+    "base_weight": 1.0,
+    "levels": { "min": 10, "max": 40 },
+    "visual_forms": ["default", "Valencia"],
+    "biomes": ["Forest", "Plains", "Alpine_Mountaain", "Tropical_Forest", "Flowers_Camps" ],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          
+        }
+      }
+    ]
+  },
+  "13": {
+    "name": "Weedle",
+    "rarity": "Common",
     "base_weight": 3.0,
-    "levels": { "min": 5, "max": 25 },
-    "biomes": ["montanha_rochosa"],
-    "spawn_rules": []
+    "levels": { "min": 1, "max": 20 },
+    "visual_forms": ["default"],
+    "biomes": ["Forest", "Plains", "Alpine_Mountaain", "Tropical_Forest", "Flowers_Camps" ],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          
+        }
+      }
+    ]
+  },
+  "14": {
+    "name": "Kakuna",
+    "rarity": "Common",
+    "base_weight": 2.0,
+    "levels": { "min": 7, "max": 21 },
+    "visual_forms": ["default"],
+    "biomes": ["Forest", "Plains", "Alpine_Mountaain", "Tropical_Forest", "Flowers_Camps" ],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          
+        }
+      }
+    ]
+  },
+  "15": {
+    "name": "Beedrill",
+    "rarity": "Common",
+    "base_weight": 6.0,
+    "levels": { "min": 10, "max": 40 },
+    "visual_forms": ["default"],
+    "biomes": ["Forest", "Plains", "Alpine_Mountaain", "Tropical_Forest", "Flowers_Camps" ],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 6, "max_hour": 18 },
+          "weather": ["clear"]
+        },
+        "multipliers": {
+          
+        }
+      }
+    ]
+  },
+  "16": {
+    "name": "Pidgey",
+    "rarity": "Common",
+    "base_weight": 3.0,
+    "levels": { "min": 1, "max": 25 },
+    "visual_forms": ["default"],
+    "biomes": ["Temperate_Forest","Alpine_Mountaain", "Plains"],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          
+        }
+      }
+    ]
+  },
+  "17": {
+    "name": "Pidgeotto",
+    "rarity": "Common",
+    "base_weight": 6.0,
+    "levels": { "min": 18, "max": 35 },
+    "visual_forms": ["default"],
+    "biomes": ["Temperate_Forest","Alpine_Mountaain", "Plains"],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          
+        }
+      }
+    ]
+  },
+  "18": {
+    "name": "Pidgeot",
+    "rarity": "Common",
+    "base_weight": 5.0,
+    "levels": { "min": 36, "max": 48 },
+    "visual_forms": ["default"],
+    "biomes": ["Temperate_Forest","Alpine_Mountaain", "Plains"],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          
+        }
+      }
+    ]
+  },
+  "19": {
+    "name": "Rattata",
+    "rarity": "Common",
+    "base_weight": 1.0,
+    "levels": { "min": 1, "max": 25 },
+    "visual_forms": ["default"],
+    "biomes": ["Plains", "urban", "world"],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          "night_time": 2.1
+        }
+      }
+    ]
+  },
+  "20": {
+    "name": "Raticate",
+    "rarity": "Common",
+    "base_weight": 2.0,
+    "levels": { "min": 20, "max": 41 },
+    "visual_forms": ["default"],
+    "biomes": ["Plains", "urban", "world"],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          "night_time": 2.1
+        }
+      }
+    ]
+  },
+  "21": {
+    "name": "Spearow",
+    "rarity": "Common",
+    "base_weight": 6.0,
+    "levels": { "min": 1, "max": 26 },
+    "visual_forms": ["default"],
+    "biomes": ["Tropical_Forest", "Wasteland", "Alpine_Mountaain","Plains"],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 6, "max_hour": 18 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          
+        }
+      }
+    ]
+  },
+  "22": {
+    "name": "Fearow",
+    "rarity": "Common",
+    "base_weight": 8.0,
+    "levels": { "min": 20, "max": 44 },
+    "visual_forms": ["default"],
+    "biomes": ["Tropical_Forest", "Wasteland", "Alpine_Mountaain","Plains"],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 6, "max_hour": 18 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          
+        }
+      }
+    ]
+  },
+  "23": {
+    "name": "Ekans",
+    "rarity": "Common",
+    "base_weight": 2.0,
+    "levels": { "min": 1, "max": 25 },
+    "visual_forms": ["default"],
+    "biomes": ["Wasteland","Plains"],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          "night_time": 2.2
+        }
+      }
+    ]
+  },
+  "24": {
+    "name": "Arbok",
+    "rarity": "Common",
+    "base_weight": 6.0,
+    "levels": { "min": 22, "max": 45 },
+    "visual_forms": ["default"],
+    "biomes": ["Wasteland","Plains", "desert"],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          "night_time": 2.2
+        }
+      }
+    ]
+  },
+  "25": {
+    "name": "Pikachu",
+    "rarity": "Uncommon",
+    "base_weight": 7.0,
+    "levels": { "min": 16, "max": 32 },
+    "visual_forms": ["default"],
+    "biomes": ["Forest"],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["light rain"]
+        },
+        "multipliers": {
+          "stormy": 5.0
+        }
+      }
+    ]
+  },
+  "26": {
+    "name": "Raichu",
+    "rarity": "Uncommon",
+    "base_weight": 12.0,
+    "levels": { "min": 32, "max": 52 },
+    "visual_forms": ["default"],
+    "biomes": ["Forest"],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["light_rain"]
+        },
+        "multipliers": {
+          "stormy": 5.0
+        }
+      }
+    ]
+  },
+  "27": {
+    "name": "Sandshrew",
+    "rarity": "Common",
+    "base_weight": 12.0,
+    "levels": { "min": 5, "max": 30 },
+    "visual_forms": ["default"],
+    "biomes": ["Desert", "Wasteland"],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          "night_time": 1.1
+        }
+      }
+    ]
+  },
+  "28": {
+    "name": "Sandslash",
+    "rarity": "Common",
+    "base_weight": 29.5,
+    "levels": { "min": 22, "max": 45 },
+    "visual_forms": ["default"],
+    "biomes": ["Desert", "Wasteland","Changestone"],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          "night_time": 1.1
+        }
+      }
+    ]
+  },
+  "29": {
+    "name": "Nidoran♀",
+    "rarity": "Uncommon",
+    "base_weight": 1.0,
+    "levels": { "min": 3, "max": 28 },
+    "visual_forms": ["default"],
+    "biomes": ["Plains", "Tropical_Forest"],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          
+        }
+      }
+    ]
+  },
+  "30": {
+    "name": "Nidorina",
+    "rarity": "Uncommon",
+    "base_weight": 1.0,
+    "levels": { "min": 16, "max": 32 },
+    "visual_forms": ["default"],
+    "biomes": ["Plains", "Tropical_Forest"],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          
+        }
+      }
+    ]
+  },
+  "31": {
+    "name": "Nidoqueen",
+    "rarity": "Uncommon",
+    "base_weight": 4.0,
+    "levels": { "min": 32, "max": 52 },
+    "visual_forms": ["default"],
+    "biomes": ["Plains", "Tropical_Forest"],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          
+        }
+      }
+    ]
+  },
+  "32": {
+    "name": "Nidoran♂",
+    "rarity": "Uncommon",
+    "base_weight": 1.0,
+    "levels": { "min": 3, "max": 28 },
+    "visual_forms": ["default"],
+    "biomes": ["Plains", "Tropical_Forest"],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          
+        }
+      }
+    ]
+  },
+  "33": {
+    "name": "Nidorino",
+    "rarity": "Uncommon",
+    "base_weight": 1.0,
+    "levels": { "min": 16, "max": 32 },
+    "visual_forms": ["default"],
+    "biomes": ["Plains", "Tropical_Forest"],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          
+        }
+      }
+    ]
+  },
+  "34": { 
+    "name": "Nidoking",
+    "rarity": "Uncommon",
+    "base_weight": 2.0,
+    "levels": { "min": 37, "max": 51 },
+    "visual_forms": ["default"],
+    "biomes": ["Plains", "Tropical_Forest"],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          
+        }
+      }
+    ]
+  },
+  "35": {
+    "name": "Clefairy",
+    "rarity": "Uncommon",
+    "base_weight": 7.5,
+    "levels": { "min": 17, "max": 32 },
+    "visual_forms": ["default"],
+    "biomes": ["Cave", "mountain", "Alpine_Mountaain", "Enchanted_Forest" ],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 18, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          "full_moon": 5.0
+        }
+      }
+    ]
+  },
+  "36": {
+    "name": "Clefable",
+    "rarity": "Uncommon",
+    "base_weight": 8.0,
+    "levels": { "min": 27, "max": 48 },
+    "visual_forms": ["default"],
+    "biomes": ["Cave", "mountain", "Alpine_Mountaain", "Enchanted_Forest" ],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 18, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          "full_moon": 5.0
+        }
+      }
+    ]
+  },
+  "37": {
+    "name": "Vulpix",
+    "rarity": "Uncommon",
+    "base_weight": 9.9,
+    "levels": { "min": 5, "max": 30 },
+    "visual_forms": ["default"],
+    "biomes": ["Forest", "Taiga", "Volcano" ],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          "twilight": 2.5
+        }
+      }
+    ]
+  },
+  "38": {
+    "name": "Ninetales",
+    "rarity": "Uncommon",
+    "base_weight": 19.9,
+    "levels": { "min": 25, "max": 51 },
+    "visual_forms": ["default"],
+    "biomes": ["Forest", "Taiga", "Volcano" ],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          "twilight": 2.5
+        }
+      }
+    ]
+  },
+  "39": {
+    "name": "Jigglypuff",
+    "rarity": "Common",
+    "base_weight": 5.5,
+    "levels": { "min": 16, "max": 27 },
+    "visual_forms": ["default"],
+    "biomes": ["Flowers_Camps", "Plains", "Alpine_Mountaain" ],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          "night_time": 1.5
+        }
+      }
+    ]
+  },
+  "40": {
+    "name": "Wigglytuff",
+    "rarity": "Common",
+    "base_weight": 12.0,
+    "levels": { "min": 22, "max": 44 },
+    "visual_forms": ["default"],
+    "biomes": ["Flowers_Camps", "Plains", "Alpine_Mountaain" ],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          "night_time": 1.5
+        }
+      }
+    ]
+  },
+  "41": {
+    "name": "Zubat",
+    "rarity": "Common",
+    "base_weight": 1.5,
+    "levels": { "min": 1, "max": 25 },
+    "visual_forms": ["default"],
+    "biomes": ["Cave", "Swamp", "Forest", "world" ],
+    "spawn_rules": [
+      {
+        "required_conditions": {
+          "time_range": { "min_hour": 0, "max_hour": 24 },
+          "weather": ["null"]
+        },
+        "multipliers": {
+          "night_time": 2.5
+        }
+      }
+    ]
   }
 }
